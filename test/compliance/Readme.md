@@ -714,5 +714,17 @@ results::
 Plug-In: SGE(+SSH) Job
 ----------------------
 
+From Lonestar to Lonestar:
+
+``python test/compliance/job/01_run_remote_exe.py sge+ssh://lonestar.tacc.utexas.edu [username] [queue] [project]``
+
+    * 01_run_remote_exe.py: **PASS**
+    * 02_run_shell_command_newline.py: **PASS**
+    * 03_run_shell_command_multiline.py: **PASS**
+    * 04_run_python_command_newline.py: **PASS**
+    * 05_run_python_command_multiline.py: **PASS**
+    * 06_job_container_01.py **PASS**
+    * 07_work_directory.py sge+ssh//lonestar.tacc.utexas.edu /tmp/ **PASS**
+    * 08_absolute_output.py sge+ssh//lonestar.tacc.utexas.edu /tmp/ **PASS**
 
 
